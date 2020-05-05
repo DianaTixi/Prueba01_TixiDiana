@@ -13,53 +13,6 @@ header{
     background :#313c4a;
     height: 100px;
 }
-section{
-    position: relative;
-    height: 100px;
-    width: 70%;
-    color: black;
-    float: left;
-}
-
-p{
-    color: black;
-}
-footer{
-    position: relative;
-    height: 100px;
-    width: 100%;
-    background-color:#313c4a ;
-    top: 200px;
-}
-aside{
-    position: relative;
-    width: 30%;
-    background-color:#c8642e ;
-    height: auto;
-    float: right;
-    top: -100px;
-    height: 400px;
-}
-#caja1{
-    width: 50%;
-    height: 40%;
-    margin-top: 15px;
-    margin-left: 27%;
-    margin-bottom: 15px;
-    margin-right: 15px;
-    text-align: center;
-    background-color:#be6356 ;
-}
-#caja2{
-    width: 50%;
-    height: 40%;
-    margin-top: 15px;
-    margin-left: 27%;
-    margin-bottom: 15px;
-    margin-right: 15px;
-    text-align: center;
-    background-color:#be6356 ;
-}
 
 nav{
     background-color: #c7642e;
@@ -68,6 +21,7 @@ nav{
     margin-bottom: 15px;
     color: white;
     margin-top: 15px;
+    margin-right: 15px;
 }
 
 
@@ -84,6 +38,81 @@ nav{
     margin-left: 10px;
     text-align: center;
 }
+footer{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color:#313c4a ;
+    float: left;
+
+}
+.secciones{
+    width: 70%;
+    margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+    position: relative;
+    float: left;
+    color: black;	
+
+
+}
+p{
+    color: black;
+    float: left;
+}
+h1{
+    color: black;
+}
+aside{
+    width: 30%;
+    background-color:#c8642e ;
+    float: right;
+	font-family: arial;
+    text-align: center;
+    position: relative;
+
+}
+#caja1{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 40%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+    background-color:#be6356 ;  
+}
+#caja2{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 40%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+    background-color:#be6356 ;
+}
+#caja3{
+    float: left;
+    background-color:#c8642e ;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 15px;
+    
+}
+#caja4{
+    float: right;
+    background-color:#c8642e ;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: auto;
+    margin-right: 15px;
+}
+
 
 #log{
     position: relative;
